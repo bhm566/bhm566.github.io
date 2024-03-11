@@ -159,7 +159,6 @@ h2 {
         transform: scale(1.01);
 }
 
-
 /* Flex Container -destination page */
 
 .container-2{
@@ -286,10 +285,6 @@ h2 {
                 background: white;
         }
 
-        .container-2 .box-item-1 h2{
-                position: absolute;
-        }
-        
         .container-2 .box-item-1 img{
                 margin: auto;
                 max-width: 100%;
@@ -318,7 +313,6 @@ h2 {
                 max-width: 100%;
                 height: auto;
         }
-
         
 }
 
