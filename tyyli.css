@@ -41,11 +41,11 @@ h2 {
         font-size: 22px;
 }
 
-#topnav a:hover{
+#topnav a:hover, #bottomnav a:hover{
         color: rgb(122, 122, 122);
 }
 
-/* Flex Container -front page
+/* Flex Container -front page - 
 
 .container{
         background: lightgray;
@@ -205,9 +205,120 @@ h2 {
         height: auto;
 }
 
+.container-2 .box-item-2 iframe{
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+}
+
 /* mobiili */
 @media only screen and (max-width: 430px){
- 
+
+        /* Yleismääritykset */
+
+        body{
+                background-color: rgb(219, 219, 219);
+                color: black;
+                font-family: Calibri, Arial, Helvetica, sans-serif;
+                margin: 0;
+        }
+
+        header {
+                text-align: center;
+                padding-bottom: 10px;
+        }
+
+        footer {
+                text-align: center;
+                padding-top: 30px;
+                padding-bottom: 40px;
+        }
+
+        h1 {
+                color: rgb(31,78,121);
+                font-size: 40px;
+        }
+
+        h2 {
+                color:rgb(10, 10, 10);
+                font-size: 22px;
+        }
+
+        /* Ylänavigointi */
+
+
+        #topnav li, #bottomnav li {
+                display: block;
+                padding-right: 40px;
+        }
+        
+        #topnav a, #bottomnav a {
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                margin: 0px 5px 0px;
+                font-size: 22px;
+        }
+        
+        #topnav a:hover, #bottomnav a:hover{
+                color: rgb(122, 122, 122);
+        }
+
+        .container-2{
+                background: rgb(255, 255, 255);
+                padding: 0px 0%;
+                padding-bottom: 5%;
+                padding-top: 1%;
+        }
+        
+        .container-2 .container-box-2{
+                background: rgb(190, 128, 128);
+                max-width: 1000px;
+                margin: auto;
+                padding: 2px;
+                display: flex;
+                flex-direction: column;
+                max-width: 800px;
+                border-radius: 10px;
+                padding-bottom: 30px;
+        }
+        
+        .container-2 .box-item-1{
+                background: rgb(97, 207, 53);
+        }
+
+        .container-2 .box-item-1 h2{
+                position: absolute;
+        }
+        
+        .container-2 .box-item-1 img{
+                margin: auto;
+                max-width: 100%;
+                height: auto;
+        }
+               
+        .container-2 .container-box-3{
+                display: flex;
+                flex-direction: column;
+        }
+        
+        .container-2 .box-item-2{
+                background: rgb(79, 76, 224);
+                width: 100%;
+                order: 3;
+        }
+        
+        .container-2 .box-item-3{
+                background: rgb(196, 63, 201);
+                width: 100%;
+                order: 2;
+        }
+       
+        .container-2 .box-item-2 iframe{
+                margin: auto;
+                max-width: 100%;
+                height: auto;
+        }
+
         
 }
 
