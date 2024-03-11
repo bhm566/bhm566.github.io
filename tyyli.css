@@ -271,7 +271,7 @@ h2 {
         }
         
         .container-2 .container-box-2{
-                background: rgb(190, 128, 128);
+                background: white;
                 max-width: 1000px;
                 margin: auto;
                 padding: 2px;
@@ -283,7 +283,7 @@ h2 {
         }
         
         .container-2 .box-item-1{
-                background: rgb(97, 207, 53);
+                background: white;
         }
 
         .container-2 .box-item-1 h2{
@@ -302,13 +302,13 @@ h2 {
         }
         
         .container-2 .box-item-2{
-                background: rgb(79, 76, 224);
+                background: white;
                 width: 100%;
                 order: 3;
         }
         
         .container-2 .box-item-3{
-                background: rgb(196, 63, 201);
+                background: white;
                 width: 100%;
                 order: 2;
         }
